@@ -1,0 +1,196 @@
+.site-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E9E9EA;
+}
+
+.site-header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.site-header__inner-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.site-header__select{
+    border: none;
+    appearance: none;
+}
+
+.site-header__menu{
+    margin-left: 23px;
+    width: 20px;
+    background-image: url("../images/icons/header-dots.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.site-header__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.site-header__bottom-btn{
+    width: 25px;
+    height: 22px;
+    margin-right: 17px;
+    background-image: url("../../images/icons/header-menu.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: transparent;
+}
+
+.site-header__bottom-form{
+    display: flex;
+    width: 100%;
+}
+
+.site-header__logo-desktop{
+    display: none;
+}
+
+.site-header__bottom-select{
+    width: 100%;
+    padding: 10px;
+    background: #F7FCFC;
+    border: 1px solid #0AA9B4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    appearance: none;
+}
+
+.site-header__bottom-search{
+    width: 100%;
+    padding: 10px;
+    padding-top: 10.5px;
+    padding-bottom: 10.8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #1F1F24;
+    border: 1px solid #0AA9B4;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.site-header__bottom-search__wrapper{
+    width: 70%;
+}
+
+.site-header__desktop-lang, .site-header__desktop-radio{
+    display: none;
+}
+
+.site-header__bottom-select-arrow{
+    position: absolute;
+    left: 500px;
+    top: 105px;
+    width: 10px;
+    height: 6px;
+    background-image: url("../../images/icons/select-arrow.svg");
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.site-header__bottom-select__wrapper{
+    position: relative;
+    width: 30%;
+    &::after{
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        width: 10px;
+        height: 6px;
+        background-image: url("../../images/icons/select-arrow.svg");
+        background-repeat: no-repeat;
+        content: "";
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .site-header{
+        padding-bottom: 25px;
+    }
+    .site-header__menu{
+        display: none;
+    }
+    .site-header__form{
+        display: none;
+    }
+    .site-header__desktop-lang{
+        display: block;
+        font-size: 18px;
+        line-height: 140%;
+        color: #8E8E91;
+    }
+    .site-header__desktop-lang{
+        margin-right: 10px;
+    }
+    .site-header__last{
+        margin-right: 0;
+    }
+    .site-header__logo-desktop{
+        display: block;
+    }
+    .site-header__logo-mobile{
+        display: none;
+    }
+    .site-header__bottom-select, .site-header__bottom-search{
+        border-width: 2px;
+    }
+    .site-header__bottom-btn{
+        width: 40px;
+        height: 32px;
+        margin-right: 40px;
+        background-size: contain;
+    }
+    .site-header__bottom-select{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .site-header__bottom-search{
+        padding-left: 25px;
+        padding-top: 16.5px;
+        padding-bottom: 16.5px;
+        font-size: 18px;
+        line-height: 140%;
+        color: #1F1F24;
+    }
+    .site-header__bottom-search__wrapper{
+        width: 70%;
+    }
+    .site-header__bottom-select__wrapper{
+        &::after{
+            position: absolute;
+            top: 26px;
+            right: 31px;
+            width: 10px;
+            height: 6px;
+            background-image: url("../../images/icons/select-arrow.svg");
+            background-repeat: no-repeat;
+            content: "";
+        }
+    }
+    .site-header__bottom-search__wrapper{
+        position: relative;
+        &::after{
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            width: 20px;
+            height: 20px;
+            background-image: url("../../images/icons/search-icon.svg");
+            background-repeat: no-repeat;
+            content: "";
+        }
+    }
+}

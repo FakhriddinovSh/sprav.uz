@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprav.uz</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <!-- Header started -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__top">
+                <a class="site-header__logo" href="./index.html">
+                    <img class="site-header__logo-mobile" src="./images/icons/site-logo-mobile.svg" width="134" height="27" alt="Site logo">
+                    <img class="site-header__logo-desktop" src="./images/icons/site-logo-desktop.svg" width="225" height="46" alt="Site logo">
+                </a>
+                
+                <div class="site-header__inner-wrapper">
+                    <form class="site-header__form" method="post" autocomplete="off">
+                        <select class="site-header__select" name="user_language">
+                            <option class="site-header__option" value="ru">Ру</option>
+                            <option class="site-header__option" value="uz">O‘z</option>
+                            <option class="site-header__option" value="en">En</option>
+                        </select>
+                    </form>
+                    <label class="site-header__desktop-lang" for="ru">Ру</label>
+                    <input class="site-header__desktop-radio" type="radio" id="ru" name="language" value="ru">
+                    <label class="site-header__desktop-lang" for="uz">O‘z</label>
+                    <input class="site-header__desktop-radio" type="radio" id="uz" name="language" value="uz">
+                    <label class="site-header__desktop-lang site-header__last" for="en">En</label>
+                    <input class="site-header__desktop-radio " type="radio" id="en" name="language" value="en">
+                    <button class="site-header__menu"></button>
+                </div>
+            </div>
+            <div class="site-header__bottom">
+                <button class="site-header__bottom-btn"></button>
+                <form class="site-header__bottom-form" method="post" autocomplete="off">
+                    <div class="site-header__bottom-select__wrapper">
+                        <select class="site-header__bottom-select" name="user-location">
+                            <option class="site-header__bottom-option" value="toshkent">Ташкент</option>
+                            <option class="site-header__bottom-option" value="samarqand">Самарканд</option>
+                            <option class="site-header__bottom-option" value="buxoro">Бухара</option>
+                        </select>
+                    </div>
+                    <div class="site-header__bottom-search__wrapper">
+                        <input class="site-header__bottom-search" type="text" placeholder="Поиск" name="user-search" aria-label="Поиск">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- Header finished -->
+    <!-- Main section started -->
+    <main class="site-main">
+        <!-- Hero section started -->
+        <section class="hero">
+            <div class="container hero--box">
+                <div>
+                    <div class="hero__content-wrapper">
+                        <div class="hero__title-wrapper">
+                            <h1 class="hero__title">
+                                <a class="hero__link" href="#">A-STORE.UZ </a>
+                                ФИРМЕННЫЙ МАГАЗИН
+                            </h1>
+                        </div>
+                        <p class="hero__description">
+                            Контактные данные компании «A-STORE.UZ фирменный МАГАЗИН» — телефоны, местонахождение, режим работы, виды деятельности и другая полезная информация. Пожалуйста, сообщите огранизации, что вы нашли их контакты на сайте Справочник Ташкента — Sprav.uz.
+                        </p>
+                    </div>
+                    <div class="hero__product">
+                        <div class="hero__product-info">
+                            <div class="hero__product-info-wrapper">
+                                <img src="./images/product-iamge.png" width="100" height="70" alt="product image">
+                                <div class="hero__product-edit">
+                                    <p>XIAOMI</p>
+                                    <time datetime="2023-03-06">с 2022 года</time>
+                                </div>
+                            </div>
+                            <div class="hero__form-desktop">
+                                <form class="hero__form" method="post" autocomplete="off">
+                                    <div class="hero__select-wrapper">
+                                        <select class="hero__select" name="user-selected-location" aria-label="Choose location">
+                                            <option class="hero__option" value="default" selected hidden>Филиалы</option>
+                                            <option class="hero__option" value="chilonzor">Чиланзор</option>
+                                            <option class="hero__option" value="sergeli">Сергели</option>
+                                            <option class="hero__option" value="qoraqamish">Қорақамиш</option>
+                                        </select>
+                                    </div>
+                                </form>
+                                <iframe class="hero__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6001.614383677263!2d69.20405465794751!3d41.22597200566455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1678120227935!5m2!1sru!2s" width="150" height="150" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <ul class="hero__list">
+                            <li class="hero__item">
+                                <address class="hero__address">
+                                    <a class="hero__address__link" href="#" target="blank">
+                                        Ташкент, Шайхантахурский р-н, пр-т Амира Темура, 129Б
+                                    </a>
+                                </address>
+                            </li>
+                            <li class="hero__item">
+                                <address class="hero__address">
+                                    <a class="hero__address__link hero__address__link--second" href="#" target="blank">
+                                        I MAXI супермаркет, ЮНУСАБАДСКИЙ РАЙОННЫЙ СУД ПО УГОЛОВНЫМ ДЕЛАМ
+                                    </a>
+                                </address>
+                            </li>
+                            
+                            <li class="hero__item">
+                                <ul class="hero__desktop-list">
+                                    <li class="hero__desktop-item">
+                                        <a class="hero__desktop-tel" href="tel:+998712071010">+998 71 207-XX-XX</a>
+                                        <p class="hero__desktop-show">Показать номер</p>
+                                    </li>
+                                    <li class="hero__desktop-item">
+                                        <div class="hero__time-wrapper" style="display: flex;">
+                                            <div>
+                                                <p class="hero__desktop-time-title">Сегодня</p>
+                                                <p class="hero__desktop-time-title">Перерыв</p>
+                                            </div>
+                                            <div>
+                                                <time class="hero__desktop-time-count" datetime="2023-03-06">с 10 до 21</time>
+                                                <p class="hero__desktop-time-count" >без перерыва</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="hero__desktop-item">
+                                        <ul class="hero__desktop__inner-list">
+                                            <li class="hero__desktop__inner-item">
+                                                <a href="goodzone.uz" target="blank">goodzone.uz</a>
+                                            </li>
+                                            <li class="hero__desktop__inner-item">
+                                                <a href="mailto:smth@gmail.com">Показать e-mail</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <a href="tel:+998712071010">+998 71 207-XX-XX</a>
+                                <p>Показать номер</p>
+                            </li>
+                            <li class="hero__item">
+                                <div class="hero__time-wrapper">
+                                    <div>
+                                        <p class="hero__time-title">Сегодня</p>
+                                        <p class="hero__time-title">Перерыв</p>
+                                    </div>
+                                    <div>
+                                        <time class="hero__time-count" datetime="2023-03-06">с 10 до 21</time>
+                                        <p class="hero__time-count" >без перерыва</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hero__item">
+                                <a class="hero__website" href="https://www.instagram.com/astore_luxury/">A-STORE.UZ</a>
+                            </li>
+                            <li class="hero__item">
+                                <a class="hero__website" href="mailto:smth@gmail.com">Показать e-mail</a>
+                            </li>
+                        </ul>
+                        
+                        <iframe class="hero__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6001.614383677263!2d69.20405465794751!3d41.22597200566455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1678120227935!5m2!1sru!2s" width="600" height="450" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <form class="hero__form" method="post" autocomplete="off">
+                            <div class="hero__select-wrapper">
+                                <select class="hero__select" name="user-selected-location" aria-label="Choose location">
+                                    <option class="hero__option" value="default" selected hidden>Филиалы</option>
+                                    <option class="hero__option" value="chilonzor">Чиланзор</option>
+                                    <option class="hero__option" value="sergeli">Сергели</option>
+                                    <option class="hero__option" value="qoraqamish">Қорақамиш</option>
+                                </select>
+                            </div>
+                        </form>
+                        <p class="hero__address__description">
+                            Различное профессиональное музыкальное оборудование. Бесплатная доставка музыкальных инструментов и платная – аксессуаров, таких как струны, подставки и т.д. в пределах города Ташкента.
+                        </p>
+                    </div>
+                </div>
+                <aside>
+                    <img src="./images/advertisement.png" width="200" height="561" alt="advertisement">
+                </aside>
+            </div>
+        </section>
+        <!-- Hero section finished -->
+        <!-- Info section started -->
+        <section class="info">
+            <div class="container">
+                <ul class="info__list">
+                    <li class="info__item">
+                        <p class="info__link">Информация</p>
+                    </li>
+                    <li class="info__item">
+                        <p class="info__link">Фотогалерея</p>
+                    </li>
+                    <li class="info__item info__item--active">
+                        <p class="info__link">График работы</p>
+                    </li>
+                    <li class="info__item">
+                        <p class="info__link">Виды деятельности</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Info section finished -->
+    </main>
+    <!-- Main section finished -->
+    <!-- Footer section started -->
+    <footer class="site-footer"></footer>
+    <!-- Footer section finished -->
+</body>
+</html>
